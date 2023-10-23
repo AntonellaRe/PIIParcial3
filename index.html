@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <title>LodeMaria</title>
+    
+</head>
+<body>
+  <header>
+    <div class="container"> 
+     <p class="logo">Lo de María</p>
+      <nav>
+        <a href="#somos-maria">Quienes Somos</a>
+        <a href="#nuestros-talleres">Nuestros Talleres</a>
+        <a href="#nuestro-contacto">Contacto</a>
+        </nav>
+          </div>
+  </header>
+
+    <section id="hero">
+        <h1>Explora tu creatividad <br> con Nosotros</h1>
+        <button> COMIENZA AHORA </button>
+        
+    </section>
+
+
+
+
+    <section id="somos-maria">
+  <div class="container">
+         <div class="img-container"></div>
+         <h2>Somos lo de María</h2>
+         <img src="./imagenes/maria.jpeg" alt="María">
+         <p>Hola. Yo soy María, llevo haciendo esto que tanto me apasiona desde los 15 años.
+          Comencé a dictar clases en mi casita, pero, tuve que mudar mi mundo de creación a un especio más grande.
+          Amo el mundo de la creatividad. Por eso te invito a que explores todo lo que puedes hacer.
+         </p>
+         <p>Podes elegir la modalidad de clase. Si sos de Córdoba Capital, Argentina podes venir presencial.
+          Nuestro estudio se encuentra allí! Si deseas tener modalidad virtual, también es posible! 
+          Te explicaré paso a paso y te daré los materiales que vas a necesitar.
+
+         </p>
+     
+    </section>
+
+
+
+    <section id="nuestros-talleres">
+  <main class="container d-flex flex-column align-center">
+        <h2 class="row text-center pb-2 w-100">Nuestros Talleres</h2>
+      <section class="row d-flex">
+        <div class="card colm-4">
+          <img src="./imagenes/cera1.jpg" class="card-img-top" alt="Cerámica">
+          <div class="card-body">
+            <h5 class="card-title">Cerámica</h5>
+            <p class="card-text">Hace las piezas que más te gusten. 
+              Podés moldear a tu gusto o utilizar moldes.
+              Técnicas de colado, utilización de engobes y más.
+            </p>
+            <a href="#" class="btn btn-primary">VER</a>
+          </div>
+        </div>
+        <div class="card col-4">
+          <img src="./imagenes/velas.jpg" class="card-img-top" alt="Velas Aromáticas">
+          <div class="card-body">
+            <h5 class="card-title">Velas Aromáticas</h5>
+            <p class="card-text">Realización de Velas para llenar tu ambiente de rico olor.
+              Más de 30 aromas, elegí el que más te gusta y realizamos las velas paso a paso.
+            </p>
+            <a href="#" class="btn btn-primary">VER</a>
+          </div>
+        </div>
+        <div class="card col-4">
+          <img src="./imagenes/alfa1.jpg" class="card-img-top" alt="Alfarería">
+          <div class="card-body">
+            <h5 class="card-title">Alfarería</h5>
+            <p class="card-text">Creación de piezas redondeadas como vasijas, cilindros, bowls o platos.</p>
+            <a href="#" class="btn btn-primary">VER</a>
+          </div>
+        </div>
+      </section>
+    </section>
+    </main>
+
+
+
+    
+  
+
+
+  <main class="container d-flex flex-column align-center"></main>
+      <h2 class="row text-center pb-2 w-100">CONTÁCTANOS</h2>
+    <section class="row d-flex">
+  <form action="https://formspree.io/f/xqkvnbdg" method="POST" class="flexcolumn formulario">
+  
+
+  <label for="NombreCompleto">Nombre
+  <input type="text" name="Nombre" id="NombreCompleto" required>
+
+  </label>
+  <label for="ApellidoUsuario">Apellido
+  <input type="text" name="Apellido" id="ApellidoUsuario" required>
+  </label>
+
+  <label for="email">email
+  <input type="text" name="email" id="email" placeholder="ejemplo@gmail.com" required>
+  </label>
+
+  <label for="taller">
+  ¿De cuál taller quisieras info?
+  <label for="Ceramica"> Cerámica
+    <input type="radio" name="taller" value="ceramica" id="ceramica">
+
+  </label>
+  <label for="Velas"> Velas Aromáticas
+    <input type="radio" name="taller" value="Velas" id="Velas">
+
+  </label>
+  <label for="Alfarería"> Alfarería
+    <input type="radio" name="taller" value="Alfarería" id="Alfarería">
+
+  </label>
+  </label>
+
+  <label for="Modalidad"> Modalidad
+    <select name="Modalidad" id="Modalidad">
+      <option value="Presencial">Presencial</option>
+      <option value="Virtual">Virtual</option>
+    </select>
+  </label>
+  </label>
+
+  <label for="comentario">
+    <textarea name="comentariousuario" id="comentario" cols="30" rows="10" placeholder="Haz un comentario"></textarea>
+
+  </label>
+
+  <input type="submit" name="enviar" id="enviar">
+  
+</main>
+</div>
+</section>
+  </form>
+
+  
+    <div class="contactos">
+      <a href="https://maps.app.goo.gl/oAS6ny6CkdNRtdaMA">
+      <i class="fa-solid fa-map-location-dot" style="color: #4411bb;"></i>
+    </a>
+    <a href=" https://wa.me/+543573433408">
+      <i class="fa-brands fa-whatsapp fa-beat" style="color: #451ae0;"></i>
+    </a>
+    </div>
+  </section>
+
+  <section id="comenzar">
+    <h2>¿Estás listo para explorar tu creatividad?</h2>
+    <button>Comienza AHORA</button>
+  </section>
+
+  <footer>
+    <div class="container">
+        <p>&copy; LodeMaría</p>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+</body>
+
+</html>
